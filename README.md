@@ -6,27 +6,52 @@ The triangle tracker web page allows user to input the lengths of the sides of a
 
 ### Project By
 
-Sunday C Juma November, 2018.
+- Sunday C Juma, November, 2018.
 
 ## Setup/Installation Requirements
 
 - Internet connection and a web browser
 - Basic Knowledge of Github and git
 
-###How to Collaborate
+### How to Collaborate
 
-  _Login to GitHub_ Fork a GitHub repository. _Clone the forked repository to your local system._ Add a Git remote for the original repository. _Create a feature branch in which to place your changes._ Make your changes to the new branch. _Commit the changes to the branch._ Push the branch to GitHub. _Open a pull request from the new branch to the original repo._ Delete new branch after your pull request is merged.
+  - Login to GitHub
+  - Fork a GitHub repository.
+  - Clone the forked repository to your local system.
+  - Add a Git remote for the original repository.
+  - Create a new branch in which to place your changes.
+  - Make your changes to the new branch.  
+  - Commit the changes to the new branch.
+  - Push the new branch to GitHub.
+  - Open a pull request from the new branch to the original repository.
+  - Delete the new branch after your pull request is merged.
+
+  ## Behaviour Driven Development
+
+  #### Website Specifications
+
+  1.The website will displays an **invalid input** message if a NaN (Not a Number) value is entered.
+
+   2.An **invalid input** message is displayed if the length of any side (a,b or c) is not entered.
+
+    3.The website will display a **Not a Triangle** message if the sum of any two sides of a triangle is less than or equal to the 3rd side.
+
+     4.The website will display a **An Equilateral Triangle** message if the value of all sides of a triangle entered are the same.
+
+     5.The website will display a **An Isosceles Triangle** message if any two values entered are the same and their sum is greater than the 3rd side.
+
+     6.The website will display a **A Scalene Triangle** message if all values entered are different and the sum of any two sides is greater than the 3rd side.
 
 ## Known Bugs
 
-There are no known bugs in this project. If you have any issues or have questions, ideas or concerns, contact me at [Github.com] (<https://github.com/SundayJuma>)
+There are no known bugs in this project. If you have any issues or have questions, ideas or concerns, contact me at **https://github.com/SundayJuma**
 
 ## Technologies Used
 
--JavaScript
--Hyper Text Markup Language
--CSS used for styling
--Atom text editor
+- JavaScript
+- Hyper Text Markup Language
+- CSS used for styling
+- Atom text editor
 
 ## Support and contact details
 
@@ -38,4 +63,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Copyright (c) {2018} **{Sunday C Juma}**
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) {2018} **{Sunday C Juma}**
