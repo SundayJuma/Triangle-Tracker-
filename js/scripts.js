@@ -1,8 +1,14 @@
 function triangleTracker(){
 
-var a = parseInt(document.getElementById("A")).value;
-var b = parseInt(document.getElementById("B")).value;
-var c = parseInt(document.getElementById("C")).value;
+var a = parseInt(document.getElementById("A").value);
+var b = parseInt(document.getElementById("B").value);
+var c = parseInt(document.getElementById("C").value);
+
+var triangle =[];
+
+triangle.push("a");
+triangle.push("b");
+triangle.push("c");
 
 if(isNaN (a)||isNaN (b) || isNaN (c)){
 alert("invalid input");
