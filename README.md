@@ -53,6 +53,8 @@ There are no known bugs in this project. If you have any issues or have question
 - CSS used for styling
 - Atom text editor
 
+[**You can view my website here**](sundayjuma.github.io/Triangle-Tracker)
+
 ## Support and contact details
 
 Contact Email: samanthasundayjuma@gmail
