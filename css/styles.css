@@ -1,3 +1,17 @@
 body{
   font-family: 'Cormorant Upright', serif;
+  margin: 5%;
+  background-color: teal;
+  font-size: 25px;
+  border: 10px solid grey;
+
+
+}
+h1{
+  margin-left: 35%;
+  font-size: 400%;
+}
+.form{
+  margin-left: 40%;
+  font-size: 25px;
 }
