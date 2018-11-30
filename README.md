@@ -4,6 +4,7 @@
 
 The triangle tracker web page allows user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.This project is part of the exercises used to test my understanding of JavaScript as part of my coursework at Moringa School.
 
+------------------------------------------------------------------------------------------------
 ### Project By
 
 - Sunday C Juma, November, 2018.
@@ -12,6 +13,7 @@ The triangle tracker web page allows user to input the lengths of the sides of a
 
 - Internet connection and a web browser
 - Basic Knowledge of Github and git
+------------------------------------------------------------------------------------------------
 
 ### How to Collaborate
 
@@ -26,21 +28,25 @@ The triangle tracker web page allows user to input the lengths of the sides of a
   - Open a pull request from the new branch to the original repository.
   - Delete the new branch after your pull request is merged.
 
-  ## Behaviour Driven Development
+  ----------------------------------------------------------------------------------------------
+
+  ## Behavior Driven Development
 
   #### Website Specifications
 
   1.The website will displays an **invalid input** message if a NaN (Not a Number) value is entered.
 
-   2.An **invalid input** message is displayed if the length of any side (a,b or c) is not entered.
+  2.An **invalid input** message is displayed if the length of any side (a,b or c) is not entered.
 
-    3.The website will display a **Not a Triangle** message if the sum of any two sides of a triangle is less than or equal to the 3rd side.
+  3.The website will display a **Not a Triangle** message if the sum of any two sides of a triangle is less than or equal to the 3rd side.
 
-     4.The website will display a **An Equilateral Triangle** message if the value of all sides of a triangle entered are the same.
+  4.The website will display a **An Equilateral Triangle** message if the value of all sides of a triangle entered are the same.
 
-     5.The website will display a **An Isosceles Triangle** message if any two values entered are the same and their sum is greater than the 3rd side.
+  5.The website will display a **An Isosceles Triangle** message if any two values entered are the same and their sum is greater than the 3rd side.
 
-     6.The website will display a **A Scalene Triangle** message if all values entered are different and the sum of any two sides is greater than the 3rd side.
+  6.The website will display a **A Scalene Triangle** message if all values entered are different and the sum of any two sides is greater than the 3rd side.
+
+  ----------------------------------------------------------------------------------------------
 
 ## Known Bugs
 
@@ -52,12 +58,15 @@ There are no known bugs in this project. If you have any issues or have question
 - Hyper Text Markup Language
 - CSS used for styling
 - Atom text editor
+------------------------------------------------------------------------------------------------
 
 [**You can view my website here**](sundayjuma.github.io/Triangle-Tracker)
 
 ## Support and contact details
 
 Contact Email: samanthasundayjuma@gmail
+
+------------------------------------------------------------------------------------------------
 
 ### License
 
