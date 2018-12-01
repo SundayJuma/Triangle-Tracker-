@@ -15,21 +15,57 @@ h1 {
   margin-left: 15%;
   font-size: 25px;
   border: 10px solid orange;
-  height: 300px;
+  height: 350px;
   width: 1000px;
-  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+}
+input{
+  width: 400px;
+  border-radius: 10px;
+  line-height: 1.5;
+  background: white;
+  font-size: 25px;
+  border: 5px solid orange;
+
 }
 
 img {
   height: 400px;
-  width: 600px;
+  width: 1500px;
   float: left;
+
+}
+h3{
+  background-color: orange;
+  text-align: center;
 }
 
 .formcontent {
   margin-left: 30%;
-  align-content: center;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-divider{
+  position: relative;
+  }
+.grid-divider>[class='column'] {
+        position: absolute;
+        content: "|";
+        border-left: 1px solid orange;
+        padding:  0 5px;
+    }
 
 .footer {
   position: fixed;
@@ -40,11 +76,37 @@ img {
   color: transparent;
   text-align: center;
 }
-.parallax {
-    background-image: url("");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+button {
+    display: inline-block;
+    border-radius: 25px;
+    padding: 16px 32px;
+    margin: 0;
+    text-decoration: none;
+    background: Blue;
+    color: White;
+    line-height: 1;
+    width: inherit;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+button:hover,
+button:focus {
+    background: orange;
+}
+
+button:focus {
+    outline: 1px solid white;
+    outline-offset: -4px;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 100%;
+    }
+    .form{
+      width, height: 100%;
+    }
 }
