@@ -1,17 +1,26 @@
 body{
   font-family: 'Cormorant Upright', serif;
   margin: 5%;
-  background-color: teal;
+  background-color: skyblue;
   font-size: 25px;
-  border: 10px solid grey;
-
-
+  border: 5px;
 }
 h1{
-  margin-left: 35%;
+  margin-left: 25%;
   font-size: 400%;
 }
 .form{
-  margin-left: 40%;
+  margin-left: 25%;
   font-size: 25px;
+  border: 10px solid orange;
+  height: 300px;
+  width: 600px;
+  
+}
+img{
+  float: right;
+height: 400px;
+  width: 600px;
+  margin-top: 0px;
+
 }
