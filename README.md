@@ -60,7 +60,7 @@ There are no known bugs in this project. If you have any issues or have question
 - Atom text editor
 ------------------------------------------------------------------------------------------------
 
-[**You can view my website here**](sundayjuma.github.io/Triangle-Tracker)
+[**You can view my website here**](https://sundayjuma.github.io/Triangle-Tracker-/)
 
 ## Support and contact details
 
