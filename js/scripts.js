@@ -4,7 +4,7 @@ var a = parseInt(document.getElementById("A").value);
 var b = parseInt(document.getElementById("B").value);
 var c = parseInt(document.getElementById("C").value);
 
-var triangle =[];
+var triangle =[","];
 
 triangle.push(a);
 triangle.push(b);
