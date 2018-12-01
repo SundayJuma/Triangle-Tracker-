@@ -1,6 +1,6 @@
 body {
   font-family: 'Cormorant Upright', serif;
-  margin: 5%;
+  margin: 2%;
   background-color: skyblue;
   font-size: 25px;
   border: 5px;
@@ -12,11 +12,11 @@ h1 {
 }
 
 .form {
-  margin-left: 15%;
-  font-size: 25px;
+  margin-left: 5%;
+  font-size: 20px;
   border: 10px solid orange;
-  height: 350px;
-  width: 1000px;
+  height: 320px;
+  width: 1100px;
   text-align: center;
   border-radius: 25px;
 }
@@ -100,6 +100,14 @@ button:focus {
 button:focus {
     outline: 1px solid white;
     outline-offset: -4px;
+}
+
+  .glitch {
+    color: red;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
 }
 
 @media screen and (max-width: 1000px) {
