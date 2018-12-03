@@ -5,9 +5,9 @@ var b = parseInt(document.getElementById("B").value);
 var c = parseInt(document.getElementById("C").value);
 
 var triangle =[","];
-var arrow = "&#187";
-var result = arrow.blink();
-document.getElementById("arrow").innerHTML = result;
+//var arrow = "&#187";
+//var result = arrow.blink();
+//document.getElementById("arrow").innerHTML = result;
 
 triangle.push(a);
 triangle.push(b);
